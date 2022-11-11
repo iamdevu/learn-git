@@ -1,0 +1,30 @@
+>create a empty repo in vscode
+    git init
+
+>create some files with some basic content in there
+>save those files
+
+> set these files to track changes and make commit
+    git add name.html
+    git commit -m 'name.html'
+    git add world.py
+    git commit -m 'world.py'
+or commit them all in one go
+    git commit -a -m 'added name.html and world.py'
+
+
+>create author identity in git
+    git config user.email "<email>"
+    git config user.name "<name>"
+
+>configure a push path or remote repo before publishing
+    git remote add '<remote_name>' '<url_of_remote_repo>'
+
+== the 'remote_name' would be used to refer to the remote repo
+
+> now to push your local branch 'master' to the remote repo aka 'remote_name'
+    git push --set-upstream <remote_name> <local_branch_name>
+
+
+
+
